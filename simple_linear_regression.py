@@ -41,5 +41,5 @@ plt.plot(train_X, lr.predict(train_X), color = 'black')
 plt.title('Salary vs Experience (Result)')
 plt.xlabel('YearsExperience')
 plt.ylabel('Salary')
+plt.savefig("slr.jpeg")
 plt.show()
-
